@@ -1,86 +1,86 @@
 # Fornax Labs — full content
 
-> Fornax Labs is an agentic AI platform for advisory and professional firms: mutual fund distributors, insurance brokers, CA and tax firms, and law firms. Agents pick up client requests from the channels a firm already uses (email, WhatsApp, web forms and business tools), work out what is needed, do the routine work, and bring in a person for anything sensitive. Every run is tracked end to end. Sugamkar is the first product built on the platform.
+> Your clients talk to you, not bots. We move the work forward. Fornax Labs is AI-first work management for client-service teams. Clients keep writing by email, WhatsApp and web forms; Fornax turns each request into an assigned, tracked task and keeps it moving, with the team approving what matters. Fornax works with mutual fund distributors today; its edition for them is called Sugamkar.
 
 This file is the long-form companion to https://fornaxlabs.xyz/llms.txt. It restates the public website in plain text for AI assistants and agents.
 
 - Website: https://fornaxlabs.xyz/
-- Sugamkar demo: https://fornaxlabs.xyz/#demo
-- Join the pilot: https://fornaxlabs.xyz/#pilot
+- Demo: https://fornaxlabs.xyz/#demo
+- Book a demo: https://fornaxlabs.xyz/#pilot
 - Contact: sales@fornaxlabs.xyz
 - Book a call: https://cal.com/manjunath-iyer/30min
 
-## The platform
+## Why Fornax
 
-Every advisory firm runs on client requests: an SIP change, a policy renewal, a tax notice, a new matter. Fornax agents handle that loop wherever the work comes from, and hand people only the decisions that need them.
+Client work arrives everywhere, and keeping track of it is a second job. An SIP change in one partner's inbox, a KYC document on WhatsApp, a redemption request on a website form: someone has to read each one, work out what it needs, decide who handles it, chase what's missing and check it got done. Most firms run that on forwarded emails, spreadsheets and memory.
 
-- Comes in from: email, WhatsApp, web forms, and your tools and APIs.
-- Fornax agents: read and understand the request, decide what kind of work it is, do the routine steps, and ask a person when it matters.
-- Ends up as: tasks with an assignee, summaries and reports, updates in your tools, and approved replies.
+- Requests get missed: one message holds two asks, and only one gets done.
+- Nobody's sure who owns it: work sits between people until the client follows up.
+- Your best people do data entry: hours go on reading messages, copying folio and PAN details and creating tasks by hand.
+- The follow-up falls apart: a missing document, a client who replies days later, a colleague who forgot.
 
-Channel status: email is live; WhatsApp and web forms are rolling out with pilot customers; other channels on request.
+## See it work
 
-## Use cases
+Fornax works with mutual fund distributors today. The site's demo shows the messages their teams get every day: personal data is masked, the request is recognised with a confidence score (unsure messages go to a person to sort), and a task is created with the client's details, an owner and a suggested next step. Fornax prepares; the team decides.
 
-Each playbook teaches the platform the requests, documents and deadlines of one kind of firm, so agents are useful from day one.
+## How it works: AI does the legwork, your team makes the calls
 
-1. Mutual fund distributors and wealth advisors (pilots open, powered by Sugamkar): SIP changes, redemptions and switches captured with folio details; KYC, nominee and address updates tracked to completion; statement and capital gains requests sent on time; complaints flagged high priority and escalated first.
-2. Insurance brokers and agents (coming next): new quote requests captured with the details needed; renewal reminders drafted well before the due date; claim intimations tracked from first notice to settlement; endorsements and policy document requests routed to the right person.
-3. CA and tax firms (coming next): GST and income tax filing requests sorted by client; tax notices logged with response due dates; document collection with automatic reminders; fee follow-ups and payment reminders, with approval.
-4. Law firms and legal practices (coming next): new matter enquiries captured with a conflict-check task; hearing and court date updates routed to the right associate; document requests and filings tracked to completion; client update requests and fee follow-ups.
+- Fornax does it: reads every message on email, WhatsApp and web forms; masks personal data before any AI sees it; splits one message into separate requests; fills in the details and matches the client record; links a client's follow-up to the same request.
+- Fornax prepares it for your approval: replies to clients, sent only after a person approves; questions to the client for missing details; its best guess on anything it isn't sure about, for a person to confirm.
+- Fornax helps you track it: an owner, a status and a due date on every request; holds and reminders; notes, files and steps on each task; what's pending, late or waiting across the team.
 
-## Make it yours: rules, routing and approvals
+Channel status: Gmail and web forms are live; WhatsApp Business is rolling out with the distributors Fornax works with.
 
-- Custom rules: conditions on anything the agent understands, such as the kind of request, an amount, the client, the channel or the time of day.
-- Routing: send work to a person, a team or round robin, by skill, workload or client; reassign in one click.
-- Approval flows: choose which actions need sign-off, from whom and in what order; add a second approver above a limit you set.
-- Extend any playbook: add your own kinds of request and decide what happens with each.
+## Who it's for
 
-Example rule: when a client message arrives on email or WhatsApp, if it is a redemption over ₹1,00,000, create a high-priority task routed round robin to the Operations team, and require Branch manager sign-off on any reply; otherwise assign it to a named person at normal priority.
+Fornax is live with mutual fund distribution teams in India. It works best where several people serve many clients, with handoffs, documents or approvals along the way.
 
-## Agent tracking
+1. Mutual fund distributors and wealth advisors (live now, as Sugamkar): SIP changes, redemptions and switches captured with folio details; KYC, nominee and address updates tracked to completion; statement and capital gains requests sent on time; complaints flagged high priority and handled first.
+2. Other client-service firms (early access): insurance brokers (quotes, renewals, claims and endorsements), CA and tax firms (filings, tax notices and document collection), law firms (new matters, hearing updates and document requests), and other firms that run on client requests.
 
-Every step, tool call and decision is logged and searchable. Sensitive actions are routed to the right person for approval before they happen. Time saved, success rate and spend are shown per agent. Example run: an insurance renewal-reminder agent finds 31 policies due in 30 days, drafts the reminders, holds a high-value fleet policy for branch manager approval, then sends and logs everything.
+## Your team, your routing, your approvals
+
+- Assignment rules: send each kind of request to a person or a team, and let a team take turns. Proposed assignments wait for a manager to confirm.
+- Reassign in one click: the new owner sees the original message, details and history.
+- Approvals in context: ask a colleague to review or approve before work moves on, with the client's message and the task's history beside them.
+- Your request types: start from the mutual fund playbook and add your own kinds of request.
 
 ## Built for trust
 
-- Private by design: PII and SPI, such as government ID and tax numbers, account numbers and contact details, are masked before any AI sees a message and restored only inside the firm's workspace.
-- You stay in control: when an agent isn't sure, it asks instead of guessing. Nothing goes to a client without approval.
-- Every action tracked: every step and decision is logged and searchable, with time saved and outcomes for each agent.
-- Summaries, not advice: agents report what the client asked for and never recommend products or reply on the firm's behalf.
+- Your clients' data stays yours: PAN, Aadhaar, account and folio numbers and contact details are masked before any AI sees a message, and shown only inside the firm's workspace.
+- You approve what goes out: when Fornax isn't sure, it asks instead of guessing. Nothing reaches a client without a person's approval.
+- Every step on the record: each action and decision is logged and searchable.
+- Summaries, not advice: Fornax reports what the client asked for and never recommends products.
 
-## Sugamkar
+## Book a demo
 
-Sugamkar is an agent for advisors, distributors and service firms. Clients write in on email, WhatsApp and web forms; Sugamkar reads every message, recognises what each request is, and puts the work that needs a person on one list (Today) with an assignee and a status.
-
-What each message becomes:
-1. Personally identifiable information (PII) and sensitive personal information (SPI) are masked with typed placeholders such as [NAME_1] before any AI processing.
-2. The request is recognised as a kind from the firm's playbook (for example SIP changes, Redemptions, KYC updates, Nominee changes, Statement requests or Complaints), with a confidence score. Messages it is unsure about go to a Review list for one-click sorting.
-3. A task is created with the customer, matched details from the client record (such as folio, phone and email), a priority, an assignee and a suggested next step. Full details are shown only inside the firm's workspace.
-
-Playbooks: mutual fund distributors (available for pilots); insurance brokers, CA and tax firms, and law firms (coming next). Other advisory and professional firms, such as wealth managers, tax consultants and company secretaries, can ask about fit.
-
-Principles: private by design; the firm stays in control (nothing is sent to a client without approval); a team view for owners with filtering and reassignment; summaries, not investment advice.
-
-Pilot: Fornax Labs is onboarding a small group of distributors and advisory firms. Apply at https://fornaxlabs.xyz/#pilot. Fornax Labs replies within one business day, holds a 30-minute call, then sets up the firm's playbook and connects the first channel.
+Fornax works with mutual fund distributors today and is taking on a few more firms. Request a demo at https://fornaxlabs.xyz/#pilot. Fornax Labs replies within one business day, runs a 30-minute demo built around the firm's real client requests, and then agrees a paid pilot with clear measures: what was handled, anything missed, and time from message to done.
 
 ## FAQ
 
-### What is Fornax Labs?
+### What is Fornax?
 
-Fornax Labs builds AI agents for advisory and professional firms: mutual fund distributors, insurance brokers, CA and tax firms, and law firms. Agents pick up client requests from email, WhatsApp and web forms, work out what is needed, do the routine work, and bring in a person for anything sensitive. Every run is tracked end to end.
+Fornax is AI-first work management for client-service teams. Your clients send requests by email, WhatsApp and web forms; Fornax turns each one into an assigned, tracked task and keeps the follow-up moving, with your team approving anything that matters. We work with mutual fund distributors today.
 
 ### What is Sugamkar?
 
-Sugamkar is our first product. It reads client messages from email, WhatsApp and web forms, recognises what each request is, and turns it into a tracked task with an assignee on one list. It is open for pilots with mutual fund distributors, with insurance brokers, CA and tax firms, and law firms coming next.
+Sugamkar is Fornax for mutual fund distributors and wealth advisors: the same platform with a ready-made playbook for SIP changes, redemptions and switches, KYC and nominee updates, statements and complaints.
+
+### How is this different from a shared inbox like Front or Hiver?
+
+A shared inbox helps you manage conversations. Fornax manages the work inside them: it splits a message into separate requests, fills in the details, gives each one an owner and a due date, and tracks it until it's done, even when the client follows up later.
+
+### We already use distributor software or a task tool. Why add Fornax?
+
+Keep them. Those tools are good at client records, transactions and projects, but someone still has to read every incoming message and type the work in by hand. Fornax does that part, so your team starts from a filled-in task.
 
 ### Which channels do you work with?
 
-Email is live today. WhatsApp Business and web forms are rolling out with our pilot firms, and other channels can be added on request. Every channel lands on the same list.
+Gmail and web forms are live today. WhatsApp Business is rolling out with the distributors we work with. Every channel lands on the same list.
 
 ### What kinds of requests can it handle?
 
-Each kind of firm has a ready-made playbook. Fund distributors: SIP changes, redemptions, KYC and nominee updates, statements and complaints. Insurance brokers: quotes, renewals, claims and endorsements. CA and tax firms: filing requests, tax notices, document collection and fee follow-ups. Law firms: new matter intake, hearing updates, document requests and client updates. You can add your own kinds of request.
+Today Fornax comes with a playbook for mutual fund distributors: SIP changes, redemptions and switches, KYC, nominee and address updates, statement and capital gains requests, and complaints. You can add your own kinds of request. Insurance brokers, CA and tax firms and law firms can talk to us about early access.
 
 ### What happens to my clients' personal data?
 
@@ -88,24 +88,24 @@ Personally identifiable information (PII) and sensitive personal information (SP
 
 ### Will it reply to my clients on its own?
 
-No. Agents sort, summarise and create work for your team. Any reply they prepare, by email or WhatsApp, waits for a person to approve it.
+No. Fornax can prepare a reply or a question for the client, but a person approves it before it goes.
 
 ### What if it gets a message wrong?
 
-When an agent isn't confident, it puts the message on your list and asks you to choose. One click files it correctly, starts the right follow-up, and the agent learns from your choice for next time.
+When Fornax isn't confident, it puts the message on your list and asks you to choose. One click files it correctly, starts the right follow-up, and Fornax learns from your choice for next time.
 
-### Can I set my own rules, routing and approvals?
+### Can I decide who gets the work and who approves it?
 
-Yes. You set the conditions an agent acts on, such as the kind of request, an amount, the client or the channel. You decide where the work goes: a person, a team or round robin. And you choose which actions need approval, from whom and above what limit. No code required.
+Yes. You decide which kinds of request go to which person or team, including taking turns across a team, and who reviews or approves work before it moves on. No code required.
 
 ### Do I need to change how my team works?
 
-No. There is no new inbox, number or app for your clients, and no engineering team needed. Your team opens one list each morning instead of digging through mail and chats.
+No. Clients keep writing to the same inbox and number, and there is no new app for them. Your team opens one list each morning instead of searching through mail and chats.
 
 ### How much does it cost?
 
-Pricing is per connected channel. Pilot firms get preferential pricing in return for feedback. Get in touch for details.
+We start with a paid pilot covering an agreed set of channels and request types, with clear success measures. Ongoing pricing is a workspace subscription. Talk to us for details.
 
 ### How do I get started?
 
-Fill in the pilot form on this page, book a call, or email sales@fornaxlabs.xyz. We reply within one business day.
+Book a demo. We'll look at a week of your real client requests, agree what Fornax will handle, and connect your first channel with you. Or email sales@fornaxlabs.xyz; we reply within one business day.
