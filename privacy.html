@@ -361,7 +361,7 @@
   <article class="legal">
     <div class="eyebrow">Legal</div>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: 29 October 2026</p>
+    <p class="updated">Last updated: 25 November 2026</p>
 
     <p>Fornax Labs ("Fornax Labs", "we", "us") builds AI agents for advisory and professional firms. Our first product, Sugamkar, reads client messages from email, WhatsApp and web forms and turns them into tracked work for the firm's team. This policy explains what personal data we collect, why, who we share it with, how long we keep it and what choices you have. It applies to our website at fornaxlabs.xyz, our pilot programme, and our services, including messages sent or received through the WhatsApp Business Platform.</p>
 
@@ -417,6 +417,7 @@
     </ul>
     <p><strong>Our legal bases:</strong> your consent (for example, when you submit the form or opt in to receive WhatsApp messages); performance of a contract with our customers; our legitimate interests in running and securing the service; and compliance with law. Under the DPDP Act we process personal data for the purposes you consented to or for other lawful uses the Act allows.</p>
     <p>We do not sell personal data. We do not use client message content for advertising or profiling, and we do not use one customer's data to serve another customer.</p>
+    <p>When a firm connects a Gmail inbox, Sugamkar asks Google for read-only access (gmail.readonly). It uses that data only to provide the features in this policy, does not use it for advertising and does not sell it.</p>
 
     <h2 id="whatsapp">4. WhatsApp Business Platform</h2>
     <p>Our service lets customer firms send and receive WhatsApp messages using the WhatsApp Business Platform, which is provided by WhatsApp LLC and Meta Platforms, Inc. and its affiliates ("Meta"). This section applies whenever you message, or are messaged by, a firm using our service on WhatsApp.</p>
@@ -429,8 +430,8 @@
     <h3>Opt-in and opt-out</h3>
     <ul>
       <li><strong>We never message anyone on WhatsApp without their consent.</strong> We message a person only on behalf of a customer firm, and only after that person has opted in to receive messages from the firm on WhatsApp (for example, by messaging the firm first or by agreeing on a form or in writing). Customers must keep a record of that consent, and we do not send messages to numbers that have not opted in.</li>
-      <li>Messages outside the 24-hour customer-service window use pre-approved message templates, as WhatsApp requires.</li>
-      <li>You can stop messages at any time by replying <strong>STOP</strong>, by blocking the number in WhatsApp, or by telling the firm or us at the address in section 14. We will stop sending you messages promptly and keep a suppression record so you are not contacted again.</li>
+      <li>Replies are sent only within the 24-hour customer-service window WhatsApp allows after a person last wrote to the firm. Outside it, WhatsApp allows only pre-approved message templates, and we do not send those today.</li>
+      <li>You can stop messages at any time by blocking the number in WhatsApp, or by telling the firm or us at the address in section 14. When you tell us, we stop sending you messages on the firm's behalf.</li>
     </ul>
     <h3>Human approval and no automated decisions</h3>
     <p>Replies prepared by an agent are not sent until a person at the firm approves them. Agents sort and summarise; they do not recommend financial, insurance, tax or legal products and make no decision about you that has legal or similarly significant effect.</p>
@@ -440,7 +441,7 @@
     <h2 id="ai">5. AI processing and masking</h2>
     <ul>
       <li>Before a message is analysed by an AI model, we detect personally identifiable information (PII) and sensitive personal information (SPI), such as government ID and tax numbers, financial account numbers, phone numbers and email addresses, and replace them with placeholders. The originals are restored only inside the firm's own workspace.</li>
-      <li>Our AI model providers process the masked content only to return a result to us. They are not permitted to use it to train their models for others, and we do not train general-purpose models on customer data.</li>
+      <li>Our AI model providers process the masked content to return a result to us. We use providers' business services and settings that exclude the content from model training where they offer them, so only masked text ever reaches a provider. We do not train general-purpose models on customer data.</li>
       <li>Every agent step and decision is logged so the firm can review what happened and why.</li>
     </ul>
 
@@ -448,7 +449,7 @@
     <p>We share personal data only as needed to run the service:</p>
     <ul>
       <li><strong>The customer firm</strong> that the data belongs to.</li>
-      <li><strong>Service providers</strong> that act on our instructions under written confidentiality and data-protection terms: cloud hosting and storage, AI model providers (masked content only), email delivery and the WhatsApp Business Platform (Meta).</li>
+      <li><strong>Service providers</strong> that act on our instructions under written confidentiality and data-protection terms: cloud hosting and storage, AI model providers (masked content only), email providers that hold the inboxes a firm connects, and the WhatsApp Business Platform (Meta).</li>
       <li><strong>Professional advisers and authorities</strong>, where required by law, court order or to protect rights, safety and security.</li>
       <li><strong>A successor</strong>, if Fornax Labs is involved in a merger, acquisition or sale of assets, subject to this policy continuing to apply.</li>
     </ul>
@@ -462,10 +463,10 @@
       <thead><tr><th>Data</th><th>How long we keep it</th></tr></thead>
       <tbody>
         <tr><td>Pilot and enquiry details</td><td>Up to 24 months after our last contact, or until you ask us to delete them</td></tr>
-        <tr><td>Client messages, attachments and tasks</td><td>For as long as the customer's account is active, or as the customer instructs. After the account ends, we delete or return the data within 90 days, unless the law requires us to keep it longer</td></tr>
-        <tr><td>Audit and security logs</td><td>Up to 12 months, or longer where needed for security or legal reasons</td></tr>
-        <tr><td>WhatsApp opt-out and suppression records</td><td>Kept so that we honour your opt-out; only your number and the opt-out date are held</td></tr>
-        <tr><td>Backups</td><td>Removed on the normal backup cycle, no later than 35 days after deletion</td></tr>
+        <tr><td>Client messages, attachments and tasks</td><td>For as long as the customer's account is active, or for the period the customer sets. When the account ends, we delete or return the data at the customer's request, unless the law requires us to keep it longer</td></tr>
+        <tr><td>Audit and security logs</td><td>For the period the customer sets, or longer where needed for security or legal reasons. Until a period is set, audit logs are kept</td></tr>
+        <tr><td>WhatsApp opt-out requests</td><td>Kept so that we honour your opt-out</td></tr>
+        <tr><td>Backups</td><td>Removed on the normal backup cycle, no later than 35 days after the data is deleted</td></tr>
       </tbody>
     </table></div>
     <p>A customer can ask us to delete a specific client's messages at any time. Deleted data cannot be recovered.</p>
@@ -480,7 +481,7 @@
       <li>ask us to correct inaccurate or incomplete data, or to update it;</li>
       <li>ask us to erase your data;</li>
       <li>withdraw consent at any time (this does not affect processing already done);</li>
-      <li>stop WhatsApp or email messages by replying STOP or unsubscribing;</li>
+      <li>ask the firm or us to stop WhatsApp messages to you;</li>
       <li>nominate another person to exercise your rights if you die or become incapacitated (under the DPDP Act);</li>
       <li>raise a grievance with us, and if it is not resolved, complain to the Data Protection Board of India or to your local data protection authority.</li>
     </ul>
